@@ -35,21 +35,26 @@
     font-size: 20px;
     font-weight: 300;
 }
-
 .member {
     display: flex;
-    margin-left: 200px;
-    margin-right: 10px;
+    margin
 }
 
-.email {
-    display: flex;
-    margin-top: 125px;
-    margin-right: 10px;
+.profile {
+    border: 20cm;
+    margin-left: 500px;
+    display: grid;
+    grid-template-columns: 220px 1fr;
+}
+.pi {
+    border-right: 1px solid rgb(255, 255, 255);
+    width: 200px;
+}
+.information {
+    border: 0cm solid ;
+    grid-template-columns: 200px 1fr;
 }
 
-.kakao {
-    display: flex;
-    margin-top: 125px;
-    margin-right: 10px;
+.call {
+    margin-top: 50px;
 }
